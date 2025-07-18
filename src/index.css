@@ -8,33 +8,54 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Top Traverse Outdoor Theme - Earth & Mountain Inspired */
+    --background: 45 15% 98%;
+    --foreground: 150 25% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 45 25% 97%;
+    --card-foreground: 150 25% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 45 25% 97%;
+    --popover-foreground: 150 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Deep Forest Green Primary */
+    --primary: 150 60% 25%;
+    --primary-foreground: 45 15% 98%;
+    --primary-glow: 150 45% 35%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Warm Earth Secondary */
+    --secondary: 35 25% 85%;
+    --secondary-foreground: 150 25% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Mountain Mist Muted */
+    --muted: 200 15% 90%;
+    --muted-foreground: 150 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Adventure Orange Accent */
+    --accent: 25 85% 60%;
+    --accent-foreground: 45 15% 98%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 45 15% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 200 20% 85%;
+    --input: 200 20% 88%;
+    --ring: 150 60% 25%;
+
+    /* Top Traverse Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(150 60% 25%) 0%, hsl(200 45% 35%) 50%, hsl(25 85% 60%) 100%);
+    --gradient-mountain: linear-gradient(180deg, hsl(200 30% 15%) 0%, hsl(150 40% 25%) 100%);
+    --gradient-sunset: linear-gradient(90deg, hsl(25 85% 60%) 0%, hsl(35 80% 50%) 100%);
+    --gradient-forest: linear-gradient(45deg, hsl(150 60% 25%) 0%, hsl(150 45% 35%) 100%);
+
+    /* Shadows & Effects */
+    --shadow-mountain: 0 20px 40px -10px hsl(150 60% 25% / 0.3);
+    --shadow-card: 0 4px 20px -4px hsl(150 20% 20% / 0.1);
+    --shadow-glow: 0 0 30px hsl(25 85% 60% / 0.4);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
     --radius: 0.5rem;
 
